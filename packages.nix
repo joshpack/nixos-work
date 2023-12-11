@@ -8,7 +8,7 @@
   users.users.jp = {
     isNormalUser = true;
     description = "jp";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirt" "input" "kvm" ];
     packages = with pkgs; [
       autojump
       darktable
@@ -42,6 +42,7 @@
     neofetch
     nvtop
     powertop
+    python3Full
     swtpm
     tldr
     wireshark
