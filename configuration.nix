@@ -2,7 +2,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      /home/jp/.config/nixos/hardware-configuration.nix
       /home/jp/.config/nixos/packages.nix
       /home/jp/.config/nixos/hardware.nix
       /home/jp/.config/nixos/bootloader.nix

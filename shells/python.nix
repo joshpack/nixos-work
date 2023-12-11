@@ -4,7 +4,7 @@ let
   pythonPackages = python3Packages;
 in pkgs.mkShell rec {
   name = "impurePythonEnv";
-  venvDir = "./venv";
+  venvDir = "./.venv";
   buildInputs = [
     # A Python interpreter including the 'venv' module is required to bootstrap
     # the environment.
