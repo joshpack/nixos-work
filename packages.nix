@@ -47,6 +47,7 @@
     wget
     weechat
     vim
+    xdotool
     ];
 
   #enable steam

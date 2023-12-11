@@ -13,7 +13,7 @@
       work = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-          ./configuration.nix
+          /home/jp/.config/nixos/configuration.nix
         ];
       };
     };
