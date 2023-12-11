@@ -35,6 +35,7 @@
   environment.systemPackages = with pkgs; [
     (import (fetchTarball https://install.devenv.sh/latest)).default
     bat
+    dmg2img
     kate
     pkgs.jetbrains.pycharm-community
     unzip
