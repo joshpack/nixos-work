@@ -16,6 +16,7 @@
       flowblade
       firefox
       google-chrome
+      gparted
       helix
       hexchat
       kitty
